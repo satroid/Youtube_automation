@@ -1,0 +1,30 @@
+﻿# Virtual Environment
+.venv/
+env/
+venv/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets
+.env
+.env.*
+client_secret.json
+token.json
+
+# Local database & outputs
+data/*.db
+data/*.sqlite3
+output/
+temp/
+*.mp4
+*.mp3
+*.wav
+
+# IDE & OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
